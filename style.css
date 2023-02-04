@@ -1,0 +1,126 @@
+/* CSS reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+  }
+  
+  .profile-card {
+    width: 480px;
+    max-width: calc(100vw - 10px);
+    font-family: 'Volkhov', serif;
+    color: silver;
+    font-size: 18px;
+    padding: 0% 2%;
+   }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  body {
+    height: 130vh;
+  }
+  
+  img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    transition: all 0.5s ease-in-out;
+    filter: grayscale(50%);
+  }
+  
+  /* Contact links */
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    display: inline;
+  }
+  
+  .content {
+    margin-bottom: 10%;
+  }
+  
+  .content {
+    padding: 0% 0%;
+    margin-left: 65px;
+    margin-right: 10px;
+    margin-top: 25px;
+  }
+  
+  .name-headline {
+    padding: 0% 0%;
+    margin-left: 120px;
+    margin-right: 0px;
+    margin-top: -110px;
+  }
+  
+  .name-headline, .links {
+    text-align: center;
+  }
+  
+  .head {
+    padding: 0% 0%;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  
+  .links {
+    margin-top: 30px;
+  }
+  
+  h1 {
+    font-size: 25px;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+  a {
+    color: silver;
+  }
+  
+  body {
+    background: url('https://i.imgur.com/TlrGYX3.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .profile-card {
+    background-color: hsla(0, 0%, 10%, .0);
+    border-radius: 4px;
+  }
+  
+  img {
+    padding: 1px;
+    background-color: #666;
+  }
+  img:hover {
+    transform: scale(1.1);
+    filter: grayscale(20%);
+  }
+  
+  body {
+    background: url('assets/universe.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .profile-card {
+    background-color: hsla(0, 0%, 10%, .0);
+    border-radius: 4px;
+  }
+  
+  img {
+    padding: 1px;
+    background-color: #666;
+  }
+  
+  #about {
+    text-align: justify;
+  }
